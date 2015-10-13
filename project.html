@@ -55,14 +55,6 @@ p>
 <p>The economic complexity emerges from the interactions between individual activities. Companies to economic is just like cells to human. We are particularly interested in how companies contribute to the regional economy complexity. As a startup, we try to quantify the complexity of a province's economy by characterizing the structure of &ldquo;province-industry&rdquo; network, which is built based on thousands of listed companies in Shanghai and Shenzhen, China. Preliminary results show that regional economic complexity is positively correlated with GDP and negatively correlated with income inequality in provinces of China. <br /> <a href="project.html#complexity"><b>READ MORE</b></a></p>
 <p>Sample Publications: <a href="publication.html" target=&ldquo;blank&rdquo;><b>Working Paper, 2015</b></a></p>
 <p></div></p>
-<p><div id="pairwise"></p>
-<h2>Pairwise Vertex Similarity (ING)</h2>
-<table class="imgtable"><tr><td>
-<img src="pic/P3.png" alt="P3" width="715px" height="165px" />&nbsp;</td>
-<td align="left"></td></tr></table>
-<p>Pairwise vertex similarity is a fundamental index for many network functions and dynamics, and it has found applications in link predication, community detection, spreading activation, etc. In this project, we propose a novel parameter-free similarity index named CosRA. Empirical studies on real recommender systems suggest that the CosRA-based method performs better than the state-of-the-art methods. This work highlights the importance of the similarity index in enhancing the performance of personalized recommendation. <br />  <a href="project.html#similarity"><b>READ MORE</b></a></p>
-<p>Sample Publications: <a href="http://arxiv.org/abs/1510.02348" target=&ldquo;blank&rdquo;><b>arXiv:1510.02348, 2015</b></a></p>
-<p></div></p>
 <p><div id="spatial"></p>
 <h2>Spatial Social Network</h2>
 <table class="imgtable"><tr><td>
@@ -70,6 +62,14 @@ p>
 <td align="left"></td></tr></table>
 <p>Previous empirical studies have confirmed a spatial scaling law for online social networks, such as LiveJournal and HP Labs email network. The optimization of information collection is thought to be the origin of this scaling law. In this project, we explore how the spatial organization affects information spreading in online social network by studying bootstrap percolation (a representative networked spreading process) on Kleinberg network (a typical spatial network model). Numerical results suggest that the self-organization of spatial structure of online social networks is to some extent relevant to the principle of least effort in human behaviour. <br />  <a href="project.html#percolation"><b>READ MORE</b></a></p>
 <p>Sample Publications: <a href="http://www.nature.com/articles/srep14662" target=&ldquo;blank&rdquo;><b>Scientific Reports, 2015</b></a></p>
+<p></div></p>
+<p><div id="pairwise"></p>
+<h2>Pairwise Vertex Similarity (ING)</h2>
+<table class="imgtable"><tr><td>
+<img src="pic/P3.png" alt="P3" width="715px" height="165px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Pairwise vertex similarity is a fundamental index for many network functions and dynamics, and it has found applications in link predication, community detection, spreading activation, etc. In this project, we propose a novel parameter-free similarity index named CosRA. Empirical studies on real recommender systems suggest that the CosRA-based method performs better than the state-of-the-art methods. This work highlights the importance of the similarity index in enhancing the performance of personalized recommendation. <br />  <a href="project.html#similarity"><b>READ MORE</b></a></p>
+<p>Sample Publications: <a href="http://arxiv.org/abs/1510.02348" target=&ldquo;blank&rdquo;><b>arXiv:1510.02348, 2015</b></a></p>
 <p></div></p>
 <p><div id="online"></p>
 <h2>Online Reputation Evaluation</h2>
@@ -124,6 +124,20 @@ p>
 <div class="blockcontent">
 <p><a href="project.html#regional">Back to Top</a></p>
 </div></div>
+<p><div id="percolation"></p>
+<h2>Bootstrap Percolation on Spatial Networks</h2>
+<table class="imgtable"><tr><td>
+<img src="pic/pro_Percolation.png" alt="Percolation" width="350px" />&nbsp;</td>
+<td align="left"><p>Figure: Phase diagram of \(k=3\) bootstrap percolation in the \(p-\alpha\) plane. The color marks the value of \(S_{gc}\). Dashed lines with solid squares and circles represent \(p_{c1}\) and \(p_{c2}\), respectively. Separated by \(\alpha=-1\), a double phase transition is observed in the right region II with two almost constant critical points \(p_{c1}\approx0.263\) and \(p_{c2}\approx0.134\). In the left region I, only a second-order phase transition is present with an increasing critical point as \(\alpha\) decreases. <br /><br /></p>
+</td></tr></table>
+<p>Real networks are often embedded in space and social networks are no exception. Previous empirical studies of online social networks, email networks and mobile phone communication networks have confirmed a spatial scaling law, namely, the probability density function (PDF) of an individual to have a friend at distance \(r\) scales as \(P(r)\sim r^{\alpha}\), \(\alpha\approx-1\). In fact, prior to these empirical observations, Kleinberg has proposed a spatial network model by adding long-range links to a 2-dimensional lattice, and he has proved that when \(P(r)\sim r^{-1}\), the structure is optimal for navigation. Recently, Hu <i>et al.</i> suggested the optimization of information collection as a possible explanation for the origin of this spatial scaling law. In fact, extensive studies have shown that the spatial organization can change the dimension which dominates many important physical properties of networks.</p>
+<p>Bootstrap percolation is a typical spatial network model, which was originally introduced in the context of magnetic disordered systems. Recently, bootstrap percolation has found applications in explaining many important social phenomena, such as the spreading of information, the propagation of infection, the adoption of new products and social behaviors. For instance, in emergence of cultural fads and adoption of new technology or objects, an individual can be positively influenced when there is a sufficient number of its close friends who have also done so. In other words, one may decide to buy a product when recommended by at least \(k\) users and trust a message when told by at least \(k\) neighbors; cf. the well-known rule, &lsquo;&lsquo;What I tell you three times is true&rsquo;&rsquo;. In this way, the process leads initially localized effects propagating throughout the whole network. </p>
+<p>Inspired by some recent findings on spatial structure of online social networks, here we study bootstrap percolation on undirected spatial networks, with the probability density function of long-range links&rsquo; lengths being a power law with tunable exponent. Setting the size of the giant active component as the order parameter, we find a parameter-dependent critical value for the power-law exponent, above which there is a double phase transition, mixed of a second-order phase transition and a hybrid phase transition with two varying critical points, otherwise there is only a second-order phase transition. We further find a parameter-independent critical value around \(-1\), about which the two critical points for the double phase transition are almost constant. To our surprise, this critical value \(-1\) is just equal or very close to the values of many real online social networks. This work helps us in better understanding the self-organization of spatial structure of online social networks, in terms of the effective function for information spreading.</p>
+<p><b>Published paper:</b> <i><u>Jian Gao</u>, Tao Zhou, and Yanqing Hu. Bootstrap percolation on spatial networks. Scientific Reports, 2015, 5:14662. <a href="http://www.nature.com/articles/srep14662" target=&ldquo;blank&rdquo;>[Link]</a> <a href="pdf/2015Bootstrap_percolation_on_spatial_networks.pdf" target=&ldquo;blank&rdquo;>[PDF]</a> <a href="http://www.nature.com/article-assets/npg/srep/2015/151001/srep14662/extref/srep14662-s1.pdf" target=&ldquo;blank&rdquo;>[SI]</a></i></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="project.html#spatial">Back to Top</a></p>
+</div></div>
 <p><div id="similarity"></p>
 <h2>A Novel Similarity Index for Better Recommendation</h2>
 <table class="imgtable"><tr><td>
@@ -173,20 +187,6 @@ S_{\alpha\beta}^{CosRA*} = \frac{1}{(k_{o_\alpha} k_{o_\beta})^{-\eta_{2}}} \sum
 <div class="blockcontent">
 <p><a href="project.html#pairwise">Back to Top</a></p>
 </div></div>
-<p><div id="percolation"></p>
-<h2>Bootstrap Percolation on Spatial Networks</h2>
-<table class="imgtable"><tr><td>
-<img src="pic/pro_Percolation.png" alt="Percolation" width="350px" />&nbsp;</td>
-<td align="left"><p>Figure: Phase diagram of \(k=3\) bootstrap percolation in the \(p-\alpha\) plane. The color marks the value of \(S_{gc}\). Dashed lines with solid squares and circles represent \(p_{c1}\) and \(p_{c2}\), respectively. Separated by \(\alpha=-1\), a double phase transition is observed in the right region II with two almost constant critical points \(p_{c1}\approx0.263\) and \(p_{c2}\approx0.134\). In the left region I, only a second-order phase transition is present with an increasing critical point as \(\alpha\) decreases. <br /><br /></p>
-</td></tr></table>
-<p>Real networks are often embedded in space and social networks are no exception. Previous empirical studies of online social networks, email networks and mobile phone communication networks have confirmed a spatial scaling law, namely, the probability density function (PDF) of an individual to have a friend at distance \(r\) scales as \(P(r)\sim r^{\alpha}\), \(\alpha\approx-1\). In fact, prior to these empirical observations, Kleinberg has proposed a spatial network model by adding long-range links to a 2-dimensional lattice, and he has proved that when \(P(r)\sim r^{-1}\), the structure is optimal for navigation. Recently, Hu <i>et al.</i> suggested the optimization of information collection as a possible explanation for the origin of this spatial scaling law. In fact, extensive studies have shown that the spatial organization can change the dimension which dominates many important physical properties of networks.</p>
-<p>Bootstrap percolation is a typical spatial network model, which was originally introduced in the context of magnetic disordered systems. Recently, bootstrap percolation has found applications in explaining many important social phenomena, such as the spreading of information, the propagation of infection, the adoption of new products and social behaviors. For instance, in emergence of cultural fads and adoption of new technology or objects, an individual can be positively influenced when there is a sufficient number of its close friends who have also done so. In other words, one may decide to buy a product when recommended by at least \(k\) users and trust a message when told by at least \(k\) neighbors; cf. the well-known rule, &lsquo;&lsquo;What I tell you three times is true&rsquo;&rsquo;. In this way, the process leads initially localized effects propagating throughout the whole network. </p>
-<p>Inspired by some recent findings on spatial structure of online social networks, here we study bootstrap percolation on undirected spatial networks, with the probability density function of long-range links&rsquo; lengths being a power law with tunable exponent. Setting the size of the giant active component as the order parameter, we find a parameter-dependent critical value for the power-law exponent, above which there is a double phase transition, mixed of a second-order phase transition and a hybrid phase transition with two varying critical points, otherwise there is only a second-order phase transition. We further find a parameter-independent critical value around \(-1\), about which the two critical points for the double phase transition are almost constant. To our surprise, this critical value \(-1\) is just equal or very close to the values of many real online social networks. This work helps us in better understanding the self-organization of spatial structure of online social networks, in terms of the effective function for information spreading.</p>
-<p><b>Published paper:</b> <i><u>Jian Gao</u>, Tao Zhou, and Yanqing Hu. Bootstrap percolation on spatial networks. Scientific Reports, 2015, 5:14662. <a href="http://www.nature.com/articles/srep14662" target=&ldquo;blank&rdquo;>[Link]</a> <a href="pdf/2015Bootstrap_percolation_on_spatial_networks.pdf" target=&ldquo;blank&rdquo;>[PDF]</a> <a href="http://www.nature.com/article-assets/npg/srep/2015/151001/srep14662/extref/srep14662-s1.pdf" target=&ldquo;blank&rdquo;>[SI]</a></i></p>
-<div class="infoblock">
-<div class="blockcontent">
-<p><a href="project.html#spatial">Back to Top</a></p>
-</div></div>
 <p><div id="reputation"></p>
 <h2>Reputation Based Online Ranking Methods</h2>
 <table class="imgtable"><tr><td>
@@ -231,7 +231,7 @@ S_{\alpha\beta}^{CosRA*} = \frac{1}{(k_{o_\alpha} k_{o_\beta})^{-\eta_{2}}} \sum
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2015-10-13 11:29:12, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2015-10-13 22:21:10, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
